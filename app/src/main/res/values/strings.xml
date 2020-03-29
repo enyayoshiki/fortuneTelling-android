@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="fortune_telling">Fortune_Telling</string>
+    <string name="lucky_card">ラッキーカード</string>
+    <string name="very_good">大吉</string>
+    <string name="good">吉</string>
+    <string name="very_bad">大凶</string>
+    <string name="bad">凶</string>
+    <string name="today_fortune">今日の運勢</string>
+    <string name="result_fortune">未定</string>
+    <string name="let_fortune_telling">占う</string>
+    <string name="restart">もう一度</string>
+
+</resources>
