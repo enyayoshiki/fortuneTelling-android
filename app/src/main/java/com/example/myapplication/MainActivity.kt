@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     var gamestart = false
     var ansered = false
 
+
     override fun onResume() {
         super.onResume()
         Result_Fortune.text = getString(R.string.result_fortune)
@@ -61,7 +62,21 @@ class MainActivity : AppCompatActivity() {
      }
         ansered = true
     }
-
+companion object val list = listOf<Int>(
+        R.drawable.c01,
+        R.drawable.c02,
+        R.drawable.c03,
+        R.drawable.c04,
+        R.drawable.c05,
+        R.drawable.c06,
+        R.drawable.c07,
+        R.drawable.c08,
+        R.drawable.c09,
+        R.drawable.c10,
+        R.drawable.c11,
+        R.drawable.c12,
+        R.drawable.c13
+    )
 }
 
 
